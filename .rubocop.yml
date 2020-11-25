@@ -1,0 +1,14 @@
+AllCops:
+  NewCops: enable
+
+Naming/FileName:
+  Exclude:
+    - lib/jekyll-recipe.rb
+    - spec/jekyll-recipe_spec.rb
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+Metrics/MethodLength:
+  CountAsOne:
+    - hash
