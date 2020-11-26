@@ -18,7 +18,7 @@ Its data structure originates from [Schema.org Recipe](https://schema.org/Recipe
 Add this line to your Jekyll website's Gemfile:
 
 ```ruby
-gem 'jekyll-recipe', git: 'https://github.com/gildesmarais/jekyll-recipe'
+gem 'jekyll-recipe', git: 'https://github.com/gildesmarais/jekyll-recipe', branch: 'main'
 ```
 
 And list `jekyll-recipe` in your `_config.yml` under `plugins:`
@@ -132,7 +132,7 @@ layout: default
 
 ### Add a recipe
 
-Create a file in `_recipe`, e.g. _recipe/cake.md_
+Create a file in `_recipes`, e.g. _recipes/cake.md_
 
 Add the recipe in the front matter:
 
